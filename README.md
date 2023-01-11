@@ -31,7 +31,7 @@ Trump
 
 ## Installation
 
-Install my-project with pnpm
+Install assistant irina with pnpm
 
 ```bash
   git clone https://github.com/fzbian/assistant-irina.git
