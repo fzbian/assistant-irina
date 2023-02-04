@@ -12,7 +12,7 @@ module.exports = {
     .setName('image')
     .setDescription('A command to generate images with artificial intelligence.')
     .addStringOption(opt => opt.setName('promt').setDescription('Specify the parameters that your image will carry.').setRequired(true)),
-  async execute(interaction, user) {
+  async execute(interaction) {
     const promt = interaction.options.get('promt').value;
     try {
       await interaction.deferReply()

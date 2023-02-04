@@ -1,7 +1,7 @@
 {
-  "name": "irene",
-  "version": "1.0.0",
-  "description": "irene is a wizard created to facilitate communication between discord servers.",
+  "name": "disgpt",
+  "version": "1.0",
+  "description": "DisGPT brings the chat and the possibility to interact with ChatGPT to Discord in an easier and more direct way.",
   "main": "./src/index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=dev nodemon src/index.js | pino-pretty -i pid,hostname -t yyyy-mm-dd HH:MM:ss"

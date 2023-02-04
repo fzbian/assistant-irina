@@ -1,7 +1,6 @@
+# DisGPT
 
-# Assistant Irina
-
-Irene is an assistant created to work on Discord that uses artificial intelligence to understand and answer questions on a variety of topics, designed to help you find information quickly, solve problems and help you make decisions, with a user-friendly interface that is simple to use.
+DisGPT brings the chat and the possibility to interact with ChatGPT to Discord in an easier and more direct way.
 
 ## Commands
 
@@ -10,34 +9,33 @@ Irene is an assistant created to work on Discord that uses artificial intelligen
 | ping      | Returns pong |
 | chat   | Talk with ChatGPT |
 | image   | Use OpenAI's intelligence to create images |
-| trump   | Get trump to say something |
-
 
 ## Screenshots
 
 Chat
 
-![](https://media.discordapp.net/attachments/1045358752028692490/1062829871572713522/image.png)
+![](https://media.discordapp.net/attachments/1038566253905858685/1071256691276009573/image.png)
 
-![](https://media.discordapp.net/attachments/1045358752028692490/1062830328160456754/image.png)
+![](https://media.discordapp.net/attachments/1038566253905858685/1071256741251129415/image.png)
 
-Image
+## Config
 
-![](https://media.discordapp.net/attachments/1045358752028692490/1062830655647531071/image.png)
-
-Trump
-
-![](https://media.discordapp.net/attachments/1045358752028692490/1062830863911493652/image.png)
+```
+DISCORD_TOKEN=
+CLIENT_ID=
+OPEANAI_KEY=
+SHOULD_CREATE_COMMANDS=true
+```
 
 ## Installation
 
-Install assistant irina with pnpm
+Install DisGPT with pnpm
 
 ```bash
-  git clone https://github.com/fzbian/assistant-irina.git
-  pnpm install
-  cd assistant-irina
-  pnpm start
+git clone https://github.com/fzbian/disgpt
+pnpm install
+cd disgpt
+pnpm start
 ```
     
 ## Tech Stack
